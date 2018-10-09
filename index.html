@@ -3,6 +3,7 @@
 
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Verkefni 6</title>
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet">
   <link rel="stylesheet" href="grid.css">
@@ -16,7 +17,7 @@
     <div class="grid">
 
       <div class="grid__row">
-        <div class="grid__col col__50">
+        <div class="grid__col col__text">
           <div class="text">
             <p>Cras ac erat tempor, scelerisque eros id, pharetra erat. Morbi eu massa suscipit elit mattis auctor.
               Nunc sit amet massa dictum dolor convallis maximus. Etiam nec aliquam quam. Nulla convallis ornare
@@ -42,16 +43,16 @@
               consequat leo et aliquam iaculis.</p>
           </div>
         </div>
-        <div class="grid__col col__50">
+        <div class="grid__col col__img">
           <img class="image" src="palms1.jpg" alt="Afskaplega lorem-ipsum-leg pálmatré">
         </div>
       </div>
 
       <div class="grid__row">
-        <div class="grid__col col__50">
+        <div class="grid__col col__img">
           <img class="image" src="palms2.jpg" alt="Jafnvel lorem-ipsum-legri pálmatré">
         </div>
-        <div class="grid__col col__50">
+        <div class="grid__col col__text">
           <div class="text">
             <p>Nunc ornare libero sit amet felis faucibus tincidunt laoreet sed magna. Etiam volutpat augue quis sapien
               pharetra, efficitur semper ipsum aliquet. Duis commodo elit libero, et vestibulum tellus scelerisque eu.
@@ -80,145 +81,142 @@
       </div>
 
     </div>
-    <div class="grid">
-      <div class="cards">
-        <div class="grid__row">
-          <div class="grid__col col__33">
-            <section class="card">
-              <h2>Lorem ipsum</h2>
-              <div class=" card__content">
-                <div class="card__text">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas aliquam justo ac semper
-                    pharetra.
-                    Sed eu libero nec felis eleifend venenatis eu ac urna. Praesent pretium nisi scelerisque nibh
-                    accumsan tempus.</p>
-                </div>
+    <div class="cards">
+      <div class="cards__row">
+        <div class="col__card">
+          <section class="card">
+            <h2>Lorem ipsum</h2>
+            <div class=" card__content">
+              <div class="card__text">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas aliquam justo ac semper
+                  pharetra.
+                  Sed eu libero nec felis eleifend venenatis eu ac urna. Praesent pretium nisi scelerisque nibh
+                  accumsan tempus.</p>
               </div>
-            </section>
-          </div>
-
-          <div class="grid__col col__33">
-            <section class="card">
-              <h2>Aliquam erat volutpat in dignissim id sagittis nec leo</h2>
-              <div class=" card__content">
-                <div class="card__text">
-                  <p>Pellentesque sem lectus, posuere in dignissim id, sagittis nec leo. Aliquam erat volutpat. Proin
-                    dui
-                    leo, maximus sed odio et, vestibulum tempus mauris.</p>
-                </div>
-                <div class="card__img">
-                  <img src="img.jpg">
-                </div>
-              </div>
-            </section>
-          </div>
-
-          <div class="grid__col col__33">
-            <section class="card">
-              <h2>Loremipsumdolorsitametconsecteturadipiscingelit</h2>
-              <div class=" card__content">
-                <div class="card__text">
-                  <p>Lorem ipsum dolor sit amet, <a href="#">consectetur adipiscing elit</a>. Pellentesque sem lectus,
-                    posuere in dignissim id, sagittis nec leo. Aliquam erat volutpat. Proin dui leo, maximus sed odio
-                    et,
-                    vestibulum tempus mauris.</p>
-                  <p>Pellentesque sem lectus, posuere in dignissim id, sagittis nec leo. Aliquam erat volutpat. Proin
-                    dui
-                    leo, maximus sed odio et, vestibulum tempus mauris.
-                    Loremipsumdolorsitametconsecteturadipiscingelitvestibulumtempusmaurisvestibulumtempusmauris.</p>
-                  <p>Aliquam erat volutpat. Proin dui leo, maximus sed odio et, vestibulum tempus mauris.</p>
-                </div>
-              </div>
-            </section>
-          </div>
+            </div>
+          </section>
         </div>
 
-        <div class="grid__row">
-          <div class="grid__col col__33">
-            <section class="card">
-              <h2>Proin dui leo</h2>
-              <div class=" card__content">
-                <div class="card__text">
-                  <p>Pellentesque sem lectus, posuere in dignissim id, sagittis nec leo. Aliquam erat volutpat. Proin
-                    dui
-                    leo, maximus sed odio et, vestibulum tempus mauris.
-                    Loremipsumdolorsitametconsecteturadipiscingelit.</p>
-                  <p>Lorem ipsum dolor sit amet, <a href="#">consectetur adipiscing elit</a>. Pellentesque sem lectus,
-                    posuere in dignissim id, sagittis nec leo. Aliquam erat volutpat. Proin dui leo, maximus sed odio
-                    et,
-                    vestibulum tempus mauris.</p>
-                  <p>Pellentesque sem lectus, posuere in dignissim id, sagittis nec leo. Aliquam erat volutpat. Proin
-                    dui
-                    leo, maximus sed odio et, vestibulum tempus mauris.
-                    Loremipsumdolorsitametconsecteturadipiscingelit.</p>
-                </div>
-                <div class="card__img">
-                  <img src="img.jpg">
-                </div>
+        <div class="col__card ">
+          <section class="card">
+            <h2>Aliquam erat volutpat in dignissim id sagittis nec leo</h2>
+            <div class=" card__content">
+              <div class="card__text">
+                <p>Pellentesque sem lectus, posuere in dignissim id, sagittis nec leo. Aliquam erat volutpat. Proin
+                  dui
+                  leo, maximus sed odio et, vestibulum tempus mauris.</p>
               </div>
-            </section>
-          </div>
-
-          <div class="grid__col col__33">
-            <section class="card">
-              <h2>Lorem ipsum</h2>
-              <div class=" card__content">
-                <div class="card__text">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas aliquam justo ac semper
-                    pharetra.
-                    Sed eu libero nec felis eleifend venenatis eu ac urna. Praesent pretium nisi scelerisque nibh
-                    accumsan tempus.</p>
-                </div>
+              <div class="card__img">
+                <img src="img.jpg">
               </div>
-              <ul>
-                <li>lorem</li>
-                <li>ipsum</li>
-              </ul>
-            </section>
-          </div>
+            </div>
+          </section>
+        </div>
 
-          <div class="grid__col col__33">
-            <section class="card">
-              <h2>Lorem ipsum</h2>
-              <div class=" card__content">
-                <div class="card__text">
-                  <p>Pellentesque sem lectus, posuere in dignissim id, sagittis nec leo. Aliquam erat volutpat. Proin
-                    dui
-                    leo, maximus sed odio et, vestibulum tempus mauris.
-                    Loremipsumdolorsitametconsecteturadipiscingelit.</p>
-                  <p>Lorem ipsum dolor sit amet, <a href="#">consectetur adipiscing elit</a>. Pellentesque sem lectus,
-                    posuere in dignissim id, sagittis nec leo. Aliquam erat volutpat. Proin dui leo, maximus sed odio
-                    et,
-                    vestibulum tempus mauris.</p>
-                  <p>Pellentesque sem lectus, posuere in dignissim id, sagittis nec leo. Aliquam erat volutpat. Proin
-                    dui
-                    leo, maximus sed odio et, vestibulum tempus mauris.
-                    Loremipsumdolorsitametconsecteturadipiscingelit.</p>
-                </div>
-                <div class="card__img">
-                  <img src="img.jpg">
-                </div>
+        <div class="col__card ">
+          <section class="card">
+            <h2>Loremipsumdolorsitametconsecteturadipiscingelit</h2>
+            <div class=" card__content">
+              <div class="card__text">
+                <p>Lorem ipsum dolor sit amet, <a href="#">consectetur adipiscing elit</a>. Pellentesque sem lectus,
+                  posuere in dignissim id, sagittis nec leo. Aliquam erat volutpat. Proin dui leo, maximus sed odio
+                  et,
+                  vestibulum tempus mauris.</p>
+                <p>Pellentesque sem lectus, posuere in dignissim id, sagittis nec leo. Aliquam erat volutpat. Proin
+                  dui
+                  leo, maximus sed odio et, vestibulum tempus mauris.
+                  Loremipsumdolorsitametconsecteturadipiscingelitvestibulumtempusmaurisvestibulumtempusmauris.</p>
+                <p>Aliquam erat volutpat. Proin dui leo, maximus sed odio et, vestibulum tempus mauris.</p>
               </div>
-              <ul>
-                <li>lorem</li>
-                <li>ipsum</li>
-                <li>dolor</li>
-                <li>foo</li>
-                <li>bar</li>
-                <li>baz</li>
-                <li>lorem-ipsum</li>
-                <li>dolor-sit-amet</li>
-              </ul>
-            </section>
-          </div>
+            </div>
+          </section>
+        </div>
 
+
+
+        <div class="col__card ">
+          <section class="card">
+            <h2>Proin dui leo</h2>
+            <div class=" card__content">
+              <div class="card__text">
+                <p>Pellentesque sem lectus, posuere in dignissim id, sagittis nec leo. Aliquam erat volutpat. Proin
+                  dui
+                  leo, maximus sed odio et, vestibulum tempus mauris.
+                  Loremipsumdolorsitametconsecteturadipiscingelit.</p>
+                <p>Lorem ipsum dolor sit amet, <a href="#">consectetur adipiscing elit</a>. Pellentesque sem lectus,
+                  posuere in dignissim id, sagittis nec leo. Aliquam erat volutpat. Proin dui leo, maximus sed odio
+                  et,
+                  vestibulum tempus mauris.</p>
+                <p>Pellentesque sem lectus, posuere in dignissim id, sagittis nec leo. Aliquam erat volutpat. Proin
+                  dui
+                  leo, maximus sed odio et, vestibulum tempus mauris.
+                  Loremipsumdolorsitametconsecteturadipiscingelit.</p>
+              </div>
+              <div class="card__img">
+                <img src="img.jpg">
+              </div>
+            </div>
+          </section>
+        </div>
+
+        <div class="col__card ">
+          <section class="card">
+            <h2>Lorem ipsum</h2>
+            <div class=" card__content">
+              <div class="card__text">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas aliquam justo ac semper
+                  pharetra.
+                  Sed eu libero nec felis eleifend venenatis eu ac urna. Praesent pretium nisi scelerisque nibh
+                  accumsan tempus.</p>
+              </div>
+            </div>
+            <ul>
+              <li>lorem</li>
+              <li>ipsum</li>
+            </ul>
+          </section>
+        </div>
+
+        <div class="col__card ">
+          <section class="card">
+            <h2>Lorem ipsum</h2>
+            <div class=" card__content">
+              <div class="card__text">
+                <p>Pellentesque sem lectus, posuere in dignissim id, sagittis nec leo. Aliquam erat volutpat. Proin
+                  dui
+                  leo, maximus sed odio et, vestibulum tempus mauris.
+                  Loremipsumdolorsitametconsecteturadipiscingelit.</p>
+                <p>Lorem ipsum dolor sit amet, <a href="#">consectetur adipiscing elit</a>. Pellentesque sem lectus,
+                  posuere in dignissim id, sagittis nec leo. Aliquam erat volutpat. Proin dui leo, maximus sed odio
+                  et,
+                  vestibulum tempus mauris.</p>
+                <p>Pellentesque sem lectus, posuere in dignissim id, sagittis nec leo. Aliquam erat volutpat. Proin
+                  dui
+                  leo, maximus sed odio et, vestibulum tempus mauris.
+                  Loremipsumdolorsitametconsecteturadipiscingelit.</p>
+              </div>
+              <div class="card__img">
+                <img src="img.jpg">
+              </div>
+            </div>
+            <ul>
+              <li>lorem</li>
+              <li>ipsum</li>
+              <li>dolor</li>
+              <li>foo</li>
+              <li>bar</li>
+              <li>baz</li>
+              <li>lorem-ipsum</li>
+              <li>dolor-sit-amet</li>
+            </ul>
+          </section>
         </div>
       </div>
     </div>
 
     <div class="grid">
       <div class="grid__row">
-        <div class="grid__col col__50">
+        <div class="grid__col col__text">
           <div class="text">
             <p>Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas
               fermentum id nulla in iaculis. Vivamus mollis eros non erat mollis tincidunt. Duis volutpat ultrices
@@ -247,7 +245,7 @@
               vel.</p>
           </div>
         </div>
-        <div class="grid__col col__50">
+        <div class="grid__col col__img">
           <img class="image" src="palms3.jpg" alt="lorem-ipsum-legustu pálmatrén">
         </div>
       </div>
