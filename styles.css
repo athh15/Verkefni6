@@ -58,8 +58,6 @@ h1 {
   width: 100%;
 }
 
-
-
 /* TODO setja upp grid fyrir >= 1000px */
 
 @media (max-width: 1490px) {
@@ -70,7 +68,7 @@ h1 {
 
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 999px) {
 
   .grid__row {
     display: flex;
@@ -121,35 +119,11 @@ h1 {
   }
 }
 
+
+
 @media (max-width: 699px) {
-
-  .col__text {
-    max-width: 100%;
-  }
-
-  .col__img {
-    max-width: 100%;
-  }
-
-  .cards__row {
-    display: flex;
-    flex-direction: column;
-    max-width: 100%;
-  }
-
   .col__card {
     max-width: 100%;
-  }
-
-  .card {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 20px;
-    padding-bottom: 10px;
-    width: 100%;
-    max-width: 470px;
-    overflow: hidden;
-    border-bottom: 2px solid #aaa;
   }
 
   .card__content {
@@ -161,9 +135,6 @@ h1 {
     margin-bottom: 20px;
   }
 
-  .card__image {
-    width: 100%;
-  }
 }
 
 /* grid fyrir cards */
